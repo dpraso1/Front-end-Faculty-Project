@@ -1,0 +1,86 @@
+
+body {
+  
+  font-family: Times New Roman;
+  background-color: LightBlue;
+}
+
+.topnav {
+  text-align: center;
+   background-color: DimGray;
+}
+
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  font-size: 30px;
+}
+
+.topnav {
+  text-align: center;
+}
+
+table {
+  display: table;
+  border: solid;
+  position: relative;
+  border-collapse: collapse;
+  margin: 20px 390px;
+  border: 1px solid dimgrey;
+  bottom: 340px;
+}
+.Sati
+{
+
+  font-size: 15px;
+  text-align: right;
+  position:relative;
+  top:90px;
+  right:463px;
+  padding-bottom: 40px;
+}
+
+.Dani {
+  font-size: 23px;
+  text-align: right;
+}
+
+.Dani li{
+  list-style: none;
+  padding-top:40px;
+}
+.Dani ul {
+  position:relative;
+  top:1px;
+  right:950px;
+}
+
+td.dashed {
+  border: 2px dashed rgb(190, 190, 190);
+}
+td.solid {
+  border: 2px solid dimgrey;
+}
+tr {
+  border: 2px solid dimgrey;
+}
+
+p:nth-child(2) {
+  border: 2px dashed rgb(190, 190, 190);
+}
+td {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    background-color:#dce3e6;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
