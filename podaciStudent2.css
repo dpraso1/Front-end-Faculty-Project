@@ -5,9 +5,31 @@ body {
   background-color: LightBlue;
 }
 
-.topnav {
+.topnav1 {
+  overflow: hidden;
+  background-color: white;
   text-align: center;
-   background-color: DimGrey;
+}
+
+.topnav1 a {
+
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+.topnav1 a:hover {
+  background-color: #ddd;
+  font-size: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: DimGrey;
+  text-align: center;
 }
 
 .topnav a {
@@ -16,13 +38,14 @@ body {
   padding: 12px 15px;
   text-decoration: none;
   font-size: 25px;
+
 }
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
   font-size: 30px;
 }
+
 
     .Tabela
     {
@@ -32,6 +55,7 @@ body {
         border-collapse: collapse;
         table-layout: fixed;
         width: 390px;
+
     }
 
     .Zaglavlje
@@ -60,9 +84,7 @@ body {
         font-family: "Arial";
         font-size: 11pt;
     }
-    .topnav {
-      text-align: center;
-    }
+    
 
 div.Red:hover {
   border-left: 2px solid black;

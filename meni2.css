@@ -1,0 +1,49 @@
+body {
+
+  margin: 5px;
+  font-family: 	Georgia;
+  background-color: LightBlue;
+
+}
+
+.topnav1 {
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+.topnav1 a {
+
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+.topnav1 a:hover {
+  background-color: #ddd;
+  font-size: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: dimgrey;
+  text-align: center;
+}
+
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  font-size: 30px;
+}

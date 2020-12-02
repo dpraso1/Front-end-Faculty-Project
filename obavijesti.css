@@ -1,0 +1,85 @@
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+.topnav a {
+
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  font-size: 30px;
+}
+
+
+.Vrijeme {
+  text-align: right;
+  font-size: 20px;
+}
+
+.Obavijest > div {
+    background-color: lightsteelblue;
+    position: relative;
+    border-radius: 15px;
+    padding: 10px 1%;
+    text-align: center;
+    font-size: 30px;
+    color: #034f84;
+    width: 80%;
+
+}
+div.Obavijest:hover > div {
+  border: 3px solid #034f84;
+  position: relative;
+  border-radius: 15px;
+  width: 80%;
+}
+
+
+.X {
+    background-color: lightsteelblue;
+    border: 4px solid #034f84;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: verdana;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    font-size: 30px;
+    line-height: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+div.X:hover {
+  background-color: #034f84;
+  border: 4px solid white;
+  color: white;
+}
+
+  @media only screen and (max-width: 500px)
+
+  {
+
+    .Obavijest > div {
+
+        width: 500px;
+
+    }
+
+    div.Obavijest:hover > div {
+
+      width: 500px;
+    }
+  }
