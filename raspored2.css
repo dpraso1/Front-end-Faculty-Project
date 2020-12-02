@@ -1,10 +1,12 @@
 
 body {
 
-  
-  font-family: Georgia;
+
+  font-family: Times New Roman;
   background-color: LightBlue;
 }
+
+
 
 .topnav1 {
   overflow: hidden;
@@ -26,6 +28,7 @@ body {
   background-color: #ddd;
   font-size: 30px;
 }
+
 
 
 .topnav {

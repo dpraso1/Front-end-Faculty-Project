@@ -9,24 +9,25 @@ body {
 
 input[type=text] {
 
- width: 373px;
+ width: 60%;
  height: 25px;
 }
 input[type=time] {
 
- width: 375px;
+ width: 60%;
  height: 27px;
 }
 
 select {
- width: 381px;
+  width: 60%;
  height: 30px;
 
 }
 
-.Poravnaj {
+.tekst {
   float: left;
-  width: 100%;
+  width: 25%;
+  margin-top: 6px;
 }
 
 .topnav1 {
@@ -65,8 +66,15 @@ select {
 
 }
 
-
 .topnav a:hover {
   background-color: #ddd;
   font-size: 35px;
+}
+
+@media screen and (max-width: 600px) {
+
+  input[type=text], input[type=time], select {
+
+   width: 80%;
+}
 }

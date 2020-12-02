@@ -36,7 +36,19 @@
     width: 80%;
 
 }
-div.Obavijest:hover > div {
+.Obavijest2 > div {
+    background-color: lightsteelblue;
+    position: relative;
+    border-radius: 15px;
+    padding: 10px 1%;
+    text-align: center;
+    font-size: 30px;
+    color: #034f84;
+    width: 80%;
+
+}
+
+div.Obavijest2:hover > div {
   border: 3px solid #034f84;
   position: relative;
   border-radius: 15px;
@@ -62,7 +74,25 @@ div.Obavijest:hover > div {
     text-align: center;
 }
 
-div.X:hover {
+.X3 {
+    background-color: lightsteelblue;
+    border: 4px solid #034f84;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: verdana;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    font-size: 30px;
+    line-height: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+div.X3:hover {
   background-color: #034f84;
   border: 4px solid white;
   color: white;
