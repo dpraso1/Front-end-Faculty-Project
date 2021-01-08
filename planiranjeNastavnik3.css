@@ -1,0 +1,87 @@
+body {
+  margin: 5px;
+  font-family: 	Georgia;
+  background-color: LightBlue;
+  font-size: 25px;
+  text-align: center;
+}
+
+input[type=text] {
+
+ width: 60%;
+ height: 25px;
+}
+input[type=time] {
+
+ width: 60%;
+ height: 27px;
+}
+
+select {
+  width: 60%;
+ height: 30px;
+
+}
+
+.tekst {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.topnav1 {
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+.topnav1 a {
+
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+.topnav1 a:hover {
+  background-color: #ddd;
+  font-size: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: dimgrey;
+  text-align: center;
+}
+
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 600px) {
+
+  input[type=text], input[type=time], select {
+
+   width: 80%;
+}
+}
+
+.ok {
+  background-color: #66ff66;
+}
+
+.notOk {
+  background-color: #ff6666;
+}

@@ -1,13 +1,39 @@
-
 body {
-  
+
+
   font-family: Times New Roman;
   background-color: LightBlue;
 }
 
-.topnav {
+
+
+.topnav1 {
+  overflow: hidden;
+  background-color: white;
   text-align: center;
-   background-color: DimGray;
+}
+
+.topnav1 a {
+
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+.topnav1 a:hover {
+  background-color: #ddd;
+  font-size: 30px;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: DimGrey;
+  text-align: center;
 }
 
 .topnav a {
@@ -16,17 +42,14 @@ body {
   padding: 12px 15px;
   text-decoration: none;
   font-size: 25px;
+
 }
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
   font-size: 30px;
 }
 
-.topnav {
-  text-align: center;
-}
 
 table {
   display: table;
@@ -36,7 +59,9 @@ table {
   margin: 20px 390px;
   border: 1px solid dimgrey;
   bottom: 340px;
+
 }
+
 .Sati
 {
 
@@ -73,9 +98,6 @@ tr {
   border: 2px solid dimgrey;
 }
 
-p:nth-child(2) {
-  border: 2px dashed rgb(190, 190, 190);
-}
 td {
     border: 1px solid rgb(190, 190, 190);
     padding: 10px;
@@ -83,4 +105,8 @@ td {
     text-align: center;
     width: 50px;
     height: 50px;
+}
+
+#t{
+  border: 4px solid black;
 }

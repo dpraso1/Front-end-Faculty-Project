@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="planiranjeNastavnik3.css">
+  <title> Spirala 3 </title>
+</head>
+<body>
+
+  <div class="topnav1">
+
+      <a class="link" href="../fwt20p18166/posjecenost.html">Posječenost 1</a>
+      <a class="link" href="../fwt20p18166/posjecenost2.html">Posječenost 2</a>
+      <a class="link" href="../fwt20p18166/obavijesti.html">Obavijesti</a>
+    </div>
+
+
+    <div class="topnav">
+      <a class="link" href="../fwt20p18166/meni2.html">Meni</a>
+      <a class="link" href="../fwt20p18166/raspored2.html">Raspored</a>
+      <a class="link" href="../fwt20p18166/planiranjeNastavnik2.html">Plan</a>
+      <a class="link" href="../fwt20p18166/podaciStudent2.html">Grupe</a>
+    </div> <br> <br> <br>
+
+<form>
+
+<div class="tekst">
+    <label for="npredmeta">Naziv predmeta: &nbsp; &nbsp;&nbsp; </label>
+  </div>
+
+    <input type="text" id="npredmeta"><br><br>
+<div class="tekst">
+    <label for="Tip"> Tip:  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  </div>
+        <select name="tip" id="Tip">
+                   <option value = "Izaberi tip"> Tip </option>
+                   <option value = "Predavanja" selected>Predavanja</option>
+                   <option value = "Vježbe">Vježbe</option>
+                </select> <br><br>
+
+<div class="tekst">
+    <label for="vpocetka" >Vrijeme početka: &nbsp;&nbsp;&nbsp;</label>
+  </div>
+    <input type="time" id="vpocetka" value="19:59"><br><br>
+<div class="tekst">
+    <label for="vkraja">Vrijeme kraja: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+</div>
+      <input type="time" id="vkraja" value="20:00"><br><br>
+<div class="tekst">
+<label for="Dus"> Dan u sedmici: &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+</div>
+            <select name="dus" id="Dus">
+                  <option value = "Izaberi dan" selected> Dan u sedmici </option>
+                  <option value = "Ponedjeljak">Ponedjeljak</option>
+                  <option value = "Utorak">Utorak</option>
+                  <option value = "Srijeda">Srijeda</option>
+                  <option value = "Četvrtak">Četvrtak</option>
+                  <option value = "Petak">Petak</option>
+              </select> <br><br>
+
+ </form>
+
+<script src="validacija.js"></script>
+<script src="planiranjeNastavnik.js"></script>
+</body>
+</html>
