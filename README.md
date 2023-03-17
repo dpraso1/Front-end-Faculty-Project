@@ -1,10 +1,8 @@
 # Front-end-Faculty-Project
 
-**Faculty of Electrical Engineering, University of Sarajevo**
+**Faculty Website (Timetable, Student List, etc.)**
 
-Faculty project within the course of Front-end Web Technologies.
-
-Faculty Website (Timetable, Student List, etc.)
+Faculty project within the course of Front-end Web Technologies, Faculty of Electrical Engineering, University of Sarajevo
 
 ## Contributors
 
